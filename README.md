@@ -36,9 +36,9 @@ git clone https://github.com/LBR56/genia-project
 ```
 
 이 프로젝트는 python 3.10.6 버전을 사용하였습니다.  
-또 필요한 라이브러리는 requirements.txt에 기제되어 있습니다.
+또 필요한 라이브러리는 requirements.txt에 기재되어 있습니다.
 
-그럼으로 필요한 라이브러리를 설치합니다.
+그러므로 필요한 라이브러리를 설치합니다.
 
 ```bash
 python -m pip install --upgrade pip
@@ -61,7 +61,7 @@ DATABASE="~"
 PASSWORD="~"
 ```
 
-다음 각 요소를 변경해주지 않는다면, 원치 않는 결과로 위험이 있습니다.
+다음 각 요소를 변경해주지 않는다면, 원치 않는 결과가 나타날 위험이 있습니다.
 
 ## 사용법
 
