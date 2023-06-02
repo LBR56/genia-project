@@ -3,4 +3,8 @@ oauth2client
 
 python-dotenv
 
-pytube
+pandas
+
+youtube_transcript_api
+tqdm
+ipywidgets

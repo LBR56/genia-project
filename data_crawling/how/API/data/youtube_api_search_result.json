@@ -1,0 +1,1712 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "vtreUgjtMKZ8zGHyJX_QsGJCEtE",
+    "nextPageToken": "CDIQAA",
+    "regionCode": "KR",
+    "pageInfo": {
+        "totalResults": 1000000,
+        "resultsPerPage": 50
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "K7WACaTYuEZnwCBMu2NNjseFFYs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "6pQVhPBrfbw"
+            },
+            "snippet": {
+                "publishedAt": "2020-04-24T19:09:35Z",
+                "channelId": "UC5aEedPor2ARJeqhfynSx8g",
+                "title": "인수분해1",
+                "description": "https://mathjk.tistory.com.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/6pQVhPBrfbw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/6pQVhPBrfbw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/6pQVhPBrfbw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "수악중독",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-04-24T19:09:35Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "paWNS0cp1TxySsFQli30v41NpL0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "GJwTce0alZo"
+            },
+            "snippet": {
+                "publishedAt": "2021-10-12T08:45:01Z",
+                "channelId": "UCkxbPwdaV74Erdxt97Nt23w",
+                "title": "[인수분해] 대한민국 원탑 강사 &#39;정승제&#39;에 홀딱 반한 홍진경(수포자필독,eng) [공부왕찐천재]",
+                "description": "그 동안 일차방정식에서 헤어나오질 못했던 저희에게 한줄기 빛이 되어 주신 정승제 선생님께 진심으로 감사의 말씀 올립니다 자주 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/GJwTce0alZo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/GJwTce0alZo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/GJwTce0alZo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "공부왕찐천재 홍진경",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-10-12T08:45:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "tyXmOo7YEjKCmxMg5j5u5F2eI68",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "3ywAbuz0cMI"
+            },
+            "snippet": {
+                "publishedAt": "2022-12-14T08:01:09Z",
+                "channelId": "UCDkTanNuZGwYtf-Y6_xBmqw",
+                "title": "인수분해 I 정승제의 고1 수학 개념 끝장내기 I 고1을 위한 개념강의",
+                "description": "정승제 선생님의 끝장나는 수학 개념 강의에서 개념만 모아모아✨✨ 방황하는 예비 고1? 개념공부가 필요한 학생? 모두 승제 쌤에게 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/3ywAbuz0cMI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/3ywAbuz0cMI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/3ywAbuz0cMI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "EBSi ",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-12-14T08:01:09Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ItNjx1D2oAGyG71o5j9yPZezlwg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "S1DO792UPiQ"
+            },
+            "snippet": {
+                "publishedAt": "2020-01-11T00:00:04Z",
+                "channelId": "UCCq9w9rG51vZxWPxLNB04mQ",
+                "title": "[EBS 수학의 답] 다항식의 인수분해 - 1. 공통인수를 이용한 인수분해",
+                "description": "중학 수학은 어렵고 답답하다? 그 고민, EBS 수학의 답으로 시~원하게 타파! ① 중학 수학의 기본 개념, 빈출 유형, 증명의 해답!",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/S1DO792UPiQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/S1DO792UPiQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/S1DO792UPiQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "EBS Learning",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-01-11T00:00:04Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "5mQYXEgccs17aJS_ppNgJraj0bk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "LAQI9Kjiwkc"
+            },
+            "snippet": {
+                "publishedAt": "2020-02-14T11:03:42Z",
+                "channelId": "UCudGH0bl44LtLfbj-YdTxvA",
+                "title": "중3-1수학 [16강] 인수와 인수분해",
+                "description": "중3-1수학 [16강] 인수와 인수분해 이 강의는 교재에 구애받지 않는 강의입니다. 강의를 듣고 본인이 가지고 있는 교재로 해당범위의 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/LAQI9Kjiwkc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/LAQI9Kjiwkc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/LAQI9Kjiwkc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "수학 맛집",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-02-14T11:03:42Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "9XIOHhv0XzvbdhtKZrpGtbZHmGs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "eT2gs_L8jxA"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-23T11:15:03Z",
+                "channelId": "UCufMvGtKg2hoTs0h1Ti5cxg",
+                "title": "10개 이상의 인수분해 공식 외우지 말고 이 영상부터 보세요 | 응용, 적용이 쉬워집니다.",
+                "description": "초등학생 나누기를 통한 인수분해, 나머지 정리 개념 확장 놀면서❤️수학만점~ 인공지능수학 깨봉! #인수분해 #나머지정리 #깨봉 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/eT2gs_L8jxA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/eT2gs_L8jxA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/eT2gs_L8jxA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "인공지능수학 깨봉",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-23T11:15:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "Lak1RnlCiWOsPg_ec4PiYgnOqxM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "6AV1IBd5e4M"
+            },
+            "snippet": {
+                "publishedAt": "2022-10-31T04:30:02Z",
+                "channelId": "UCIeGcgo2NLHwYV5_NHuOwgg",
+                "title": "신박한 만능 인수분해법. 학교에서 안 가르쳐 줌. 낚시 아님!",
+                "description": "1️⃣2️⃣ Math 구독하기 👍 : http://bit.ly/3Pw2NOG 1️⃣2️⃣ Math 회원가입 👍👍 : http://bit.ly/3kiw8BM 만능 인수분해법.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/6AV1IBd5e4M/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/6AV1IBd5e4M/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/6AV1IBd5e4M/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "12 Math",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-10-31T04:30:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "uj8QkvRQh2ff1onVACq4XoEDP0o",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "mMpM48Es-sg"
+            },
+            "snippet": {
+                "publishedAt": "2020-01-15T00:30:02Z",
+                "channelId": "UCCq9w9rG51vZxWPxLNB04mQ",
+                "title": "[EBS 수학의 답] 다항식의 인수분해 - 2. 인수분해공식(1)-완전제곱식",
+                "description": "중학 수학은 어렵고 답답하다? 그 고민, EBS 수학의 답으로 시~원하게 타파! ① 중학 수학의 기본 개념, 빈출 유형, 증명의 해답!",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mMpM48Es-sg/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mMpM48Es-sg/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mMpM48Es-sg/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "EBS Learning",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-01-15T00:30:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "9Sbk6EH3nqGOa3JblZJW4ACkbeE",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Fgm5umQsHxM"
+            },
+            "snippet": {
+                "publishedAt": "2023-05-16T11:00:09Z",
+                "channelId": "UCDkTanNuZGwYtf-Y6_xBmqw",
+                "title": "※13분 순삭※ 인수분해의 세계에 오신 걸 환영합니다 I 완포자를 위한 정승제의 수학개념",
+                "description": "마침내, 이해됐다! '인수분해' #ebsi #정승제 #인수분해 #수포자 #생선님 #수학개념 정승제 선생님의 끝장나는 수학 개념 강의에서 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Fgm5umQsHxM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Fgm5umQsHxM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Fgm5umQsHxM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "EBSi ",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-05-16T11:00:09Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "jMp4V5xbcMZbeJl3luBnb90XnJs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "MOfaIwK9I4A"
+            },
+            "snippet": {
+                "publishedAt": "2022-02-08T15:58:52Z",
+                "channelId": "UClCODN4NM_hMsKOg86k3CUw",
+                "title": "[중3수학] 인수분해란 무엇이고, 인수란 무엇인가? / 인수와 인수분해 뜻",
+                "description": "중학수학/ 인수분해 뜻을 정확히 알아보자! #인수분해 #인수와인수분해.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/MOfaIwK9I4A/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/MOfaIwK9I4A/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/MOfaIwK9I4A/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "해바라기 중학수학",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-02-08T15:58:52Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "NMoSm5b2Gob2G7hiCux1M991Qy4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "VOVtsFrMzYk"
+            },
+            "snippet": {
+                "publishedAt": "2019-12-07T09:39:03Z",
+                "channelId": "UCFEiYwDnD5p5pXdNrgOqd9A",
+                "title": "인수분해 / 인수분해공식 / 곱셈공식 / 세 번째 시간 / 고1수학 (고등수학상)",
+                "description": "알고리즘성남학원의 예비고1 과 고1들을 위한 고등수학 개념강의 세 번째 시간입니다. 오늘은 인수분해 시간입니다. 인수분해를 하는 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/VOVtsFrMzYk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/VOVtsFrMzYk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/VOVtsFrMzYk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "classlive",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-12-07T09:39:03Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "MKbdpLfMNw0wpb3xNrr7dMvcPpw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "fBOAz97b4HM"
+            },
+            "snippet": {
+                "publishedAt": "2022-04-05T02:00:07Z",
+                "channelId": "UCWqHm4u7junEcXkNKy6WEgw",
+                "title": "중3(상) 인수분해part1- 인수분해의 시작! 가장 기본에 대해 알아보자!!",
+                "description": "안녕하세요. 여러분^^ 오늘은 쪄니쌤이 인수분해 강의를 준비했는데요. 인수분해는 설명할 것이 많아서 강의를 나눴습니다. 그 중 오늘 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/fBOAz97b4HM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/fBOAz97b4HM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/fBOAz97b4HM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "쪄니쌤의 수학교실",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-04-05T02:00:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "pOyEsaC8o6X9X3Zw8GbO8PAknAo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "CSmYRGM-900"
+            },
+            "snippet": {
+                "publishedAt": "2020-11-13T09:46:26Z",
+                "channelId": "UCXQ5zAqIFOohc0SJO1j17Ow",
+                "title": "10강_인수분해(1)",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/CSmYRGM-900/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/CSmYRGM-900/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/CSmYRGM-900/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "EBSi임재석쌤",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-11-13T09:46:26Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "1IY3WGaTJKycrY8PHvtugKQztmA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "sEgcGnoufh0"
+            },
+            "snippet": {
+                "publishedAt": "2020-02-17T06:41:29Z",
+                "channelId": "UCudGH0bl44LtLfbj-YdTxvA",
+                "title": "중3-1수학 [17강] 인수분해 공식(1)",
+                "description": "중3-1수학 [17강] 인수분해 공식(1) 이 강의는 교재에 구애받지 않는 강의입니다. 강의를 듣고 본인이 가지고 있는 교재로 해당범위의 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/sEgcGnoufh0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/sEgcGnoufh0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/sEgcGnoufh0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "수학 맛집",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-02-17T06:41:29Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "dcYVbYPo_Re9X-py5W7HrNxepXs",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "F16lLSu7bFA"
+            },
+            "snippet": {
+                "publishedAt": "2022-10-17T08:03:41Z",
+                "channelId": "UC1jZ7bGGynBNTTZnsA53cnA",
+                "title": "[중등] 중3-1. 인수분해_ 하나의 다항식을 2개 이상의 인수의 곱으로 나타내는 것을 인수분해라고 합니다. #shorts #maths #중등수학 #인수분해 #수학",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/F16lLSu7bFA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/F16lLSu7bFA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/F16lLSu7bFA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "매일수학💯",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-10-17T08:03:41Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "M0qgGe7D9wXFkDqTB9zJHOtb-wo",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Ao3QUFMTSyk"
+            },
+            "snippet": {
+                "publishedAt": "2020-02-15T00:30:01Z",
+                "channelId": "UCCq9w9rG51vZxWPxLNB04mQ",
+                "title": "[EBS 수학의 답] 다항식의 인수분해 - 11. 항이 4개인 다항식의 인수분해",
+                "description": "중학 수학은 어렵고 답답하다? 그 고민, EBS 수학의 답으로 시~원하게 타파! ① 중학 수학의 기본 개념, 빈출 유형, 증명의 해답!",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Ao3QUFMTSyk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Ao3QUFMTSyk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Ao3QUFMTSyk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "EBS Learning",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-02-15T00:30:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "IEK7CC_CiZt7uuKlq7dT-soyr6E",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "IiimDUHGlEA"
+            },
+            "snippet": {
+                "publishedAt": "2020-01-24T14:18:42Z",
+                "channelId": "UCmTfcCiq4M77TL2lV6f3Wuw",
+                "title": "[우프 중3수학] R60 - R69 - 고급 인수분해 문제  ( 교재 : 좋아요 아래쪽에 있습니다 )",
+                "description": "[문제 다운] http://www.cyberschool.co.kr/m3/m3R.pdf [답과 풀이] http://www.cyberschool.co.kr/m3/m3Rdap.pdf [중고 수학 개별 문제 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/IiimDUHGlEA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/IiimDUHGlEA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/IiimDUHGlEA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "우프 사이버스쿨",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-01-24T14:18:42Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "SqL4sS2BdrN2pUiPf5J-WkS59uI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "oA_DgoJqSu8"
+            },
+            "snippet": {
+                "publishedAt": "2020-01-25T01:00:04Z",
+                "channelId": "UCCq9w9rG51vZxWPxLNB04mQ",
+                "title": "[EBS 수학의 답] 다항식의 인수분해 - 5. 인수분해공식(3)",
+                "description": "중학 수학은 어렵고 답답하다? 그 고민, EBS 수학의 답으로 시~원하게 타파! ① 중학 수학의 기본 개념, 빈출 유형, 증명의 해답!",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/oA_DgoJqSu8/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/oA_DgoJqSu8/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/oA_DgoJqSu8/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "EBS Learning",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-01-25T01:00:04Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "EzxgU8F-ui7-eMUjO5UwT7dnNm0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "JLh9Kx1hhyk"
+            },
+            "snippet": {
+                "publishedAt": "2020-02-19T00:00:02Z",
+                "channelId": "UCCq9w9rG51vZxWPxLNB04mQ",
+                "title": "[EBS 수학의 답] 다항식의 인수분해 - 12. 항이 5개 이상인 다항식의 인수분해",
+                "description": "중학 수학은 어렵고 답답하다? 그 고민, EBS 수학의 답으로 시~원하게 타파! ① 중학 수학의 기본 개념, 빈출 유형, 증명의 해답!",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/JLh9Kx1hhyk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/JLh9Kx1hhyk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/JLh9Kx1hhyk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "EBS Learning",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-02-19T00:00:02Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "JWw49xR8l5QCUCOy6UUFHiv-5tY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "cwfLvTuBBnI"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-08T15:20:32Z",
+                "channelId": "UCmrqKbR88gw9_o5yo6GGoxQ",
+                "title": "인수분해",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/cwfLvTuBBnI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/cwfLvTuBBnI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/cwfLvTuBBnI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "야무진수학",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-08T15:20:32Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "cOBj5H1JVvTqDvsTU8sRIRg_0bc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "C6OrR8wpxk0"
+            },
+            "snippet": {
+                "publishedAt": "2022-01-08T03:00:04Z",
+                "channelId": "UCkzbCw-4lXOl4Gf-AOrI_gw",
+                "title": "인수분해를 빠르게 하려면 2가지만 확인하자!",
+                "description": "수학 #인수분해 #스킬 대수론과 대수학에서, 인수분해(因數分解, factorization)는 주어진 정수 또는 다항식을 인수들의 곱셈 형식으로 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/C6OrR8wpxk0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/C6OrR8wpxk0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/C6OrR8wpxk0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Ray 수학",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-01-08T03:00:04Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "xPGsyMXn-f-BDj8FVT8X5_Ee3Qk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ktWNA_zrB8s"
+            },
+            "snippet": {
+                "publishedAt": "2016-04-25T01:42:07Z",
+                "channelId": "UC5aEedPor2ARJeqhfynSx8g",
+                "title": "인수분해 2",
+                "description": "http://mathjk.tistory.com.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ktWNA_zrB8s/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ktWNA_zrB8s/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ktWNA_zrB8s/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "수악중독",
+                "liveBroadcastContent": "none",
+                "publishTime": "2016-04-25T01:42:07Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "kBJ7sTVE5-kAnb5e0Up-5bIh_TA",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "DYxfphTmhyw"
+            },
+            "snippet": {
+                "publishedAt": "2022-02-11T11:15:00Z",
+                "channelId": "UCufMvGtKg2hoTs0h1Ti5cxg",
+                "title": "초등연산 나누기(나머지)로 고등과정 인수분해 이해하기! 연산 이렇게 해보세요",
+                "description": "놀면서❤️수학만점~ 인공지능수학 깨봉! #연산 #인수분해 #초등수학 #나머지 [깨봉수학 바로가기]▷ https://bit.ly/3gBA8Iv [깨봉 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/DYxfphTmhyw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/DYxfphTmhyw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/DYxfphTmhyw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "인공지능수학 깨봉",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-02-11T11:15:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "OP6Xf5yDxWdhiDuGuyQwKBlPOvY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "2YiZrIJzUsk"
+            },
+            "snippet": {
+                "publishedAt": "2020-01-22T01:00:01Z",
+                "channelId": "UCCq9w9rG51vZxWPxLNB04mQ",
+                "title": "[EBS 수학의 답] 다항식의 인수분해 - 4. 인수분해공식(2)-합차의 곱을 이용한 인수분해(2)",
+                "description": "중학 수학은 어렵고 답답하다? 그 고민, EBS 수학의 답으로 시~원하게 타파! ① 중학 수학의 기본 개념, 빈출 유형, 증명의 해답!",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/2YiZrIJzUsk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/2YiZrIJzUsk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/2YiZrIJzUsk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "EBS Learning",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-01-22T01:00:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "n1pJWPD77VLkr7ruZMijorkaty4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "br2THdlWG0I"
+            },
+            "snippet": {
+                "publishedAt": "2023-02-22T06:04:06Z",
+                "channelId": "UCBSVleHNPBmyAxCw7nAE7KA",
+                "title": "인수분해 쉽게 가르쳐드릴께!",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/br2THdlWG0I/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/br2THdlWG0I/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/br2THdlWG0I/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "하빠수학",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-02-22T06:04:06Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "UPF7rqpkXB3mc1QV552cwbi2z3Q",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "NSnRmfS8jc0"
+            },
+            "snippet": {
+                "publishedAt": "2021-04-16T09:26:05Z",
+                "channelId": "UCKRRG2626OL24WJHUhOJlNg",
+                "title": "[차길영의 3초 풀이법] 인수분해🎀﻿&quot;어? 예쁘다... 풀면 더 예쁠 거 같은데?&quot; ﻿(✿◡‿◡)",
+                "description": "프로듀스 X 듀오백 부스터 의자 제휴 기념 이벤트⭐ ✓ 경품: 듀오백 부스터 의자 (3명) ✓ 기간: 23. 05.24 ~ 23.06.12 ✓ 방법: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NSnRmfS8jc0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NSnRmfS8jc0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NSnRmfS8jc0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "차길영의 세븐에듀",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-04-16T09:26:05Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "UA3EfkYBbQaIHaPxbkP8M_4YQyk",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "Sk6daIKDh-E"
+            },
+            "snippet": {
+                "publishedAt": "2020-12-13T10:47:51Z",
+                "channelId": "UClnIwaruE55MWD_D5w2Qn0A",
+                "title": "02강 전개와 인수분해 ① 중학교 복습 - 정승제선생님 수포자강의",
+                "description": "수포자 #수학 #완포자 #정승제 1타강사라고 불리는 정승제선생님께서 중학교내용을 전체적으로 복습해주시는 영상입니다.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/Sk6daIKDh-E/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/Sk6daIKDh-E/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/Sk6daIKDh-E/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "정원 수학하는 일상",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-12-13T10:47:51Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "yrrSoH9wEWsoDpbIiyvWYqBtYQc",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ZDAO-ZzwZ9Q"
+            },
+            "snippet": {
+                "publishedAt": "2022-04-11T02:00:11Z",
+                "channelId": "UCWqHm4u7junEcXkNKy6WEgw",
+                "title": "중3(상) 인수분해 part2- 복잡한 식의 인수분해까지!! 완벽 마스터!!",
+                "description": "안녕하세요. 여러분^^ 쪄니쌤이에요. 오늘은 인수분해 part2 강의를 준비했습니다. part1 강의는 인수분해의 가장 기본이었다면 part2 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ZDAO-ZzwZ9Q/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ZDAO-ZzwZ9Q/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ZDAO-ZzwZ9Q/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "쪄니쌤의 수학교실",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-04-11T02:00:11Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "DHEWPoCr1qTLNEKnO7UbXDvfCn4",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "q4mRKS1n7pc"
+            },
+            "snippet": {
+                "publishedAt": "2020-02-26T00:00:13Z",
+                "channelId": "UCCq9w9rG51vZxWPxLNB04mQ",
+                "title": "[EBS 수학의 답] 다항식의 인수분해 - 14. 인수분해 공식을 이용한 식의 값 구하기",
+                "description": "중학 수학은 어렵고 답답하다? 그 고민, EBS 수학의 답으로 시~원하게 타파! ① 중학 수학의 기본 개념, 빈출 유형, 증명의 해답!",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/q4mRKS1n7pc/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/q4mRKS1n7pc/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/q4mRKS1n7pc/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "EBS Learning",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-02-26T00:00:13Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "rqLHO6RNznqY5x02hdRqIFl38Cg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "NF64LXVu1xo"
+            },
+            "snippet": {
+                "publishedAt": "2020-01-18T00:30:00Z",
+                "channelId": "UCCq9w9rG51vZxWPxLNB04mQ",
+                "title": "[EBS 수학의 답] 다항식의 인수분해 - 3. 인수분해공식(2)-합차의 곱을 이용한 인수분해(1)",
+                "description": "중학 수학은 어렵고 답답하다? 그 고민, EBS 수학의 답으로 시~원하게 타파! ① 중학 수학의 기본 개념, 빈출 유형, 증명의 해답!",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/NF64LXVu1xo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/NF64LXVu1xo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/NF64LXVu1xo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "EBS Learning",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-01-18T00:30:00Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "78aGjgUuEFBu9i9QxYyInC1BLUw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "WXiFgkI865c"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-18T06:37:09Z",
+                "channelId": "UCOtJLaVAMJ2MqjWRoF8c14w",
+                "title": "잠자는 숲속의 공주님 인수분해",
+                "description": "김강용 선생님의 [내신 및 수능대비] 교재 판매에 대한 안내입니다.── 김강용 선생님의 공개되지 않은 강의를 보고 싶으시다면, 지금 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/WXiFgkI865c/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/WXiFgkI865c/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/WXiFgkI865c/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "김강용: 심화와 응용에 강한 수학",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-18T06:37:09Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "guZA5HuYHAuhchemB_ETa-UcXLw",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "YnOk3ypuQRQ"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-27T10:11:05Z",
+                "channelId": "UCPU7lIo7z36PAtXay9xLlNQ",
+                "title": "중3수학 인수분해를 이용한 수의계산 08년생 보세요~~내신요약정리 시험치기전 필수 벼락치기 밀양 중학교3학년 #shorts",
+                "description": "중3수학 인수분해를 이용한 수의계산 08년생 보세요~~내신요약정리 시험치기전 필수 벼락치기 밀양 중학교3학년 #shorts.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/YnOk3ypuQRQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/YnOk3ypuQRQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/YnOk3ypuQRQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "세모문EDU 온라인강의(수학,영어,사자성어)",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-27T10:11:05Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "1fE3dbZP6VxXtrk9mL_gJD4rAEY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "5ZCrHvrlDkQ"
+            },
+            "snippet": {
+                "publishedAt": "2022-06-05T15:23:41Z",
+                "channelId": "UClCODN4NM_hMsKOg86k3CUw",
+                "title": "[중3수학] 인수분해를 이용한 이차방정식의 풀이 / #shorts",
+                "description": "중학수학/ 인수분해를 이용하여 이차방정식을 어떻게 푸나요? #인수분해이차방정식 #이차방정식의풀이 #중학수학.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5ZCrHvrlDkQ/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5ZCrHvrlDkQ/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5ZCrHvrlDkQ/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "해바라기 중학수학",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-06-05T15:23:41Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "rePBRBsDmWhkvidryRO7MB_6jaQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "OnP_JSKLEsE"
+            },
+            "snippet": {
+                "publishedAt": "2023-01-13T13:00:14Z",
+                "channelId": "UCjBxl6TqfVMKOqNM9512D6g",
+                "title": "[고1-1] 마플교과서 수학(상) 174번 인수분해 문제 푸는 법",
+                "description": "[고1-1] 마플교과서 수학(상) 174번 인수분해 문제 푸는 법 #수학 #희진쌤 #수학희진쌤 #math #shorts #고1 #고1수학 #수상 #수학상 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/OnP_JSKLEsE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/OnP_JSKLEsE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/OnP_JSKLEsE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "수학 희진쌤",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-01-13T13:00:14Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "C8p9Zkq4Ojed4ypXEaigDzXBv9g",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "_uVUQBwF2ho"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-17T00:47:33Z",
+                "channelId": "UC-dPxRJmwmp4Mt3sQdBF8FQ",
+                "title": "색종이를 이용해 인수분해하기",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/_uVUQBwF2ho/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/_uVUQBwF2ho/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/_uVUQBwF2ho/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "lovechain♡",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-17T00:47:33Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "OxHkYxIGrp6BBJsWQnQwiXoRGs8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "5z1lGsd_o9c"
+            },
+            "snippet": {
+                "publishedAt": "2022-02-16T18:41:55Z",
+                "channelId": "UClCODN4NM_hMsKOg86k3CUw",
+                "title": "[중3수학] 다항식의 인수분해  / 이차항의 계수가 1인 이차식의 인수분해",
+                "description": "중학수학/ 이차항의 계수가 1인 이차식의 인수분해 공식을 알아봅니다. #인수분해 #다항식의인수분해 #인수분해공식.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/5z1lGsd_o9c/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/5z1lGsd_o9c/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/5z1lGsd_o9c/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "해바라기 중학수학",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-02-16T18:41:55Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "IQ7X-hQuXia-BBYJRUm6ttT5r84",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "XSQdJ9dPn8w"
+            },
+            "snippet": {
+                "publishedAt": "2022-11-01T07:12:26Z",
+                "channelId": "UCAgFyrAQPisZaJbOAwzM6aw",
+                "title": "마더텅 | 고등수학 3800제 수학(상) | 03. 인수분해 Step.1~2 (우수종 선생님)",
+                "description": "교재 풀이 관련 질문은 아래 링크 Q&A게시판에 남겨주세요! ▷Q&A 게시판: https://www.toptutor.co.kr/qna/index.jsp 풀이 동영상 강의 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/XSQdJ9dPn8w/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/XSQdJ9dPn8w/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/XSQdJ9dPn8w/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "마더텅 고등",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-11-01T07:12:26Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "fE3ExFjM-yBBMM6pvGJ07xfukQY",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "PjO0dLk-FGE"
+            },
+            "snippet": {
+                "publishedAt": "2023-05-09T04:59:39Z",
+                "channelId": "UCy_aXcsQSAtv45oVytTMYVQ",
+                "title": "다항식의 인수분해, 전개",
+                "description": "4단계 수학 도구 중 식의 변형에 대한 \"다항식의 인수분해, 전개\" 영상입니다 앱스토어에서 \"조건노트\", \"꿈꾸는 아지트\"를 검색하세요 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/PjO0dLk-FGE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/PjO0dLk-FGE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/PjO0dLk-FGE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "조건노트",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-05-09T04:59:39Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "OIOZxUuiENX1Wd-im5H3N5Mg3MQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "dMjakuP3liI"
+            },
+            "snippet": {
+                "publishedAt": "2020-12-11T05:57:50Z",
+                "channelId": "UCeMNPZhRIdJjgfdowbrnXiA",
+                "title": "[고등상 중요개념] 1-3. 인수분해 #01탄 || 상반식 인수분해",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/dMjakuP3liI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/dMjakuP3liI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/dMjakuP3liI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "필박수학",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-12-11T05:57:50Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "zz36sMpoAn4cypa6YjyIv5R1ktM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "9iVQBIbkulk"
+            },
+            "snippet": {
+                "publishedAt": "2021-01-09T12:35:49Z",
+                "channelId": "UCprT2Daoce6GcciqYXOtHfg",
+                "title": "인수분해 고난도 01",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/9iVQBIbkulk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/9iVQBIbkulk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/9iVQBIbkulk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "winner수학",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-01-09T12:35:49Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "d6Ht59creXyno74CcY55cYIOqf0",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "lfaiKVkfjH4"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-29T22:00:22Z",
+                "channelId": "UCO-e0J-Qsilkv_4tBa3LyYw",
+                "title": "&quot;성공한 사람들만 아는 시리즈&quot;ㅣ생각을 현실화하는 방법 l 100만뷰 인수분해 시리즈 집대성",
+                "description": "성공 #잠재의식 #동기부여 #끌어당김의법칙.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/lfaiKVkfjH4/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/lfaiKVkfjH4/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/lfaiKVkfjH4/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "하와이 대저택",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-29T22:00:22Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "kECv-wkft398EIppQ2nwrIgVQ6Q",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "j1kKaJc39Pk"
+            },
+            "snippet": {
+                "publishedAt": "2022-06-05T15:48:14Z",
+                "channelId": "UClCODN4NM_hMsKOg86k3CUw",
+                "title": "[중3수학] 꼭 대입해야 하나요? / 이차방정식과 인수분해 #shorts",
+                "description": "중학수학/ 한 문제, 다양한 해법에 대하여 알아봅니다. #이차방정식 #이차방정식의해 #이차방정식인수분해.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/j1kKaJc39Pk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/j1kKaJc39Pk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/j1kKaJc39Pk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "해바라기 중학수학",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-06-05T15:48:14Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "t4njZAy0nyQOVbFGlic0KiynKPU",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "lKxX0WCQ8gE"
+            },
+            "snippet": {
+                "publishedAt": "2019-09-04T00:24:23Z",
+                "channelId": "UCDkTanNuZGwYtf-Y6_xBmqw",
+                "title": "(개정) [고등예비과정] 수학 - 05강 인수분해 |50일 수학 정승제| EBSi 고교강의",
+                "description": "완벽한 개념과 지독한 연습이 만점을 만듭니다. #정승제 #수학인강추천#스타강사 EBSi고교강의 유튜브 채널 구독하고 고등학교 수학 ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/lKxX0WCQ8gE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/lKxX0WCQ8gE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/lKxX0WCQ8gE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "EBSi ",
+                "liveBroadcastContent": "none",
+                "publishTime": "2019-09-04T00:24:23Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "gHOYIQ8aKo1zynZ0XfJ3PjDSTVI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "mu6Rng1hEJk"
+            },
+            "snippet": {
+                "publishedAt": "2021-01-15T04:27:18Z",
+                "channelId": "UCkn65JJRZw6Z2ANencSL-jg",
+                "title": "인수분해는 왜 X자로 곱해? 인수분해 하는 방법 (3분)",
+                "description": "",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/mu6Rng1hEJk/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/mu6Rng1hEJk/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/mu6Rng1hEJk/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "1분 수학",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-01-15T04:27:18Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "HbWqzjE-IoCX-gX3IrNiqVFTsIQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "g57qn4UnbKA"
+            },
+            "snippet": {
+                "publishedAt": "2022-03-07T03:13:21Z",
+                "channelId": "UCJu1g9kriB6-6ungAFD8fUQ",
+                "title": "중학교 3학년 수학_다항식의 인수분해",
+                "description": "배우고 이루는 스스로 캠프에서 다항식의 인수분해에 대해 공부해볼까요? 배이스캠프(배우고_이루는_스스로_캠프) ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/g57qn4UnbKA/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/g57qn4UnbKA/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/g57qn4UnbKA/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "응용교육측정평가연구소",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-03-07T03:13:21Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "QDy8P1v1C7NRMIURsvxJsuOCn7w",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "VRWbREXGI5Y"
+            },
+            "snippet": {
+                "publishedAt": "2020-05-07T15:18:15Z",
+                "channelId": "UCnbw8nxw72tLruV278hw0Ig",
+                "title": "인수분해, 무엇을 왜 하는 거지? 딱 한번만 보면 되는 동영상.",
+                "description": "인수분해, 딱 한번만 보면 되는 설명! 무엇을 왜 하는 거지?",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/VRWbREXGI5Y/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/VRWbREXGI5Y/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/VRWbREXGI5Y/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "파깨비TV",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-05-07T15:18:15Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "hrpx1DLsqBnVGennt-cl60LpCr8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "UUgH17z_gpI"
+            },
+            "snippet": {
+                "publishedAt": "2022-02-18T05:14:10Z",
+                "channelId": "UClCODN4NM_hMsKOg86k3CUw",
+                "title": "[중3] 이차식이 인수분해가 되는 조건  #shorts",
+                "description": "중학수학/ 이차항의 계수가 1인 이차식이 인수분해가 되기 위한 조건을 확인해봅시다! #인수분해 #중3수학 #인수분해공식.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/UUgH17z_gpI/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/UUgH17z_gpI/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/UUgH17z_gpI/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "해바라기 중학수학",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-02-18T05:14:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "fsw_mA-ORUOPlUEuuHFzZvbm64U",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "45DOqCUYze0"
+            },
+            "snippet": {
+                "publishedAt": "2021-03-28T06:04:10Z",
+                "channelId": "UCzRwVpnsQHaf3u_GGVmsXJA",
+                "title": "큰 숫자 인수분해 쉽게 하는법",
+                "description": "인수분해#올인수학tv#1학기커리큘럼 [개념원리 중학수학1-1] ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/45DOqCUYze0/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/45DOqCUYze0/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/45DOqCUYze0/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "올인수학tv",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-03-28T06:04:10Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "dE8VR-5oloKcg1VGmnEn9S1tGJg",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "xAHhbpXgd3o"
+            },
+            "snippet": {
+                "publishedAt": "2021-02-01T01:00:21Z",
+                "channelId": "UCRiqFVH6khbdDrA5BzBnAzA",
+                "title": "[라이브질답 | 수학] 길고 복잡한 식을 어떻게하면 인수분해 잘 할 수 있나요?| 인수분해 | 다항식 | 복잡한 식의 인수분해",
+                "description": "인수분해 #공통인수 #다항식 Q. 길고 복잡한 식의 인수분해를 잘 할 수 있는 방법이 있나요? 밀크T중학 유튜브 라이브 질답 Q&A영상!",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/xAHhbpXgd3o/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/xAHhbpXgd3o/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/xAHhbpXgd3o/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "밀크티타임",
+                "liveBroadcastContent": "none",
+                "publishTime": "2021-02-01T01:00:21Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "IJxHXMHw_rPbmWkmVL8PIpJEcdQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "t8sq2lUPzRE"
+            },
+            "snippet": {
+                "publishedAt": "2022-04-13T02:01:05Z",
+                "channelId": "UCVHlP68lXbLkJ1aOLI3oKYQ",
+                "title": "[중3]문자가 여러 개인 식의 인수분해",
+                "description": "1.x에 대하여 차례대로 정리를 해주고 2. 이차식의 인수분해 방법을 이용하여 인수분해 합니다.",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/t8sq2lUPzRE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/t8sq2lUPzRE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/t8sq2lUPzRE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "누구나아는기초수학",
+                "liveBroadcastContent": "none",
+                "publishTime": "2022-04-13T02:01:05Z"
+            }
+        }
+    ]
+}
