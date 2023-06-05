@@ -50,12 +50,10 @@ pipeline {
                 echo "deploying with ${ADMIN_CREDENTIALS}"
                 sh 'printf ${ADMIN_CREDENTIALS}'
                 echo "deploying version ${params.VERSION}"
-			}
-            steps {
                 script {
                     gv.deployApp()
                 }
-            }
+			}
 		}
 	}
     post {
