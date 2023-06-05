@@ -2,7 +2,7 @@ pipeline {
 	agent any
     environment {
         NEW_VERSION = '1.0.0'
-        // ADMIN_CREDENTIALS = credentials('test')
+        ADMIN_CREDENTIALS = credentials('test')
     }
     parameters {
         string(name: 'VERSION', defaultValue: '', description: 'deployment version')
@@ -13,7 +13,7 @@ pipeline {
         stage("init") {
             steps {
                 script {
-                    gv = load "script.groovy"
+                    gv = load "jenkins/script.groovy"
                 }
             }
         }
