@@ -1,0 +1,6 @@
+-- LOAD DATAS
+-- INSERT INTO movies(id, title, release_year, genre, price)
+-- VALUES
+--     (1, 'The Shaw shank Redemption', 1994, 'HORROR', 15.99),
+--     (2, 'Ant Man', 2019, 'ADVENTURE', 15.00),
+--     (3, 'Fallen', 1996, 'HORROR', 23.99);
