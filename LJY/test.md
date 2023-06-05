@@ -1,4 +1,5 @@
 ## Jaeyoung Doc
 ---
-Hi. I am Jaeyoung. 
-Update for second test.
+1. Topic Modeling
+2. Similarity analysis
+
