@@ -4,3 +4,5 @@ venv
 jenkins_home
 
 __pycache__
+
+data/postgres
