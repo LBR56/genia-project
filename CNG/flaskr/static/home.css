@@ -1,0 +1,40 @@
+*{padding:0;margin:0}
+/*네비게이션 CSS*/
+ul,ol{list-style:none}
+a{text-decoration:none;color:#fff;font-size:15px}
+nav{width:80%;overflow:hidden;height:80px;background-color:#1b2035;margin:50px auto}
+
+#modeltype_bar {
+    width: 100%;
+    position: relative;
+    text-align: center;
+  }
+  #modeltype_bar>a {
+    line-height: 80px;
+    display: block;
+    font-size: 30px;
+    font-weight: 900;
+    position: absolute;
+    left: 30px;
+  }
+  #modeltype_bar>select {
+    padding: 0 20px;
+    height: 30px;
+    background-color: #1b2035;
+    color: #fff;
+    position: absolute;
+    right: 30px;
+    top: 50%;
+    transform: translateY(-15px);
+    border: 2px solid #fff;
+    border-radius: 30px;
+  }
+  #modeltype_bar>ul {
+    display: inline-block;
+  }
+  #modeltype_bar>ul li {
+    float: left;
+    line-height: 80px;
+    padding: 0 30px;
+  }
+  /*-------------------------*/

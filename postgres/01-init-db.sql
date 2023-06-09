@@ -12,7 +12,7 @@
 DROP TABLE IF EXISTS video_meta;
 CREATE TABLE "video_meta" (
   "kind" varchar,
-  "etage" varchar,
+  "etag" varchar,
   "id" varchar PRIMARY KEY,
   "publishedAt" varchar,
   "channelId" varchar,
@@ -49,7 +49,7 @@ CREATE TABLE "transcript" (
 
 COMMENT ON COLUMN "video_meta"."kind" IS 'API 리소스 유형';
 
-COMMENT ON COLUMN "video_meta"."etage" IS 'Etag';
+COMMENT ON COLUMN "video_meta"."etag" IS 'Etag';
 
 COMMENT ON COLUMN "video_meta"."id" IS 'video id';
 

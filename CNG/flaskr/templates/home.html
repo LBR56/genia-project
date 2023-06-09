@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<link rel=stylesheet type=text/css href="{{ url_for('static', filename='home.css') }}">
+<html>
+<head>
+    <title>Flask PostgreSQL Example</title>
+</head>
+
+<body>
+    <div id = "board_1">
+        <header>
+            <h1>Data from PostgreSQL</h1>
+        </header>
+        <!-- navigation-->
+        <div id = "board_2">
+            <nav id = "modeltype_bar">
+                <a href="#">logo</a>
+                    <ul>
+                        <li><a href="#">menu1</a></li>
+                        <li><a href="#">menu2</a></li>
+                        <li><a href="#">menu3</a></li>
+                        <li><a href="#">menu4</a></li>
+                        <li><a href="#">menu5</a></li>
+                    </ul>
+                    <select>
+                        <option>=test1=</option>
+                        <option>=test2=</option>
+                        <option>=test3=</option>
+                    </select>
+            </nav>
+        </div>
+        <div id = content>
+            <section>
+                <!-- 이미지 div -->
+                <div image_1>
+                    <img src="{{ url_for('static', filename='src/img/test.jpg') }}">
+
+                </div>
+                <div>
+                    <ul>
+                        {% for row in data %}
+                            <li>{{ row }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+            </section>
+        </div>
+    </div>
+    
+    
+</body>
+</html>
