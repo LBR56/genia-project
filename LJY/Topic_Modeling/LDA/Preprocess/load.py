@@ -44,9 +44,17 @@ class DataLoad:
             texts_dict_popular : dictionary of popular video texts data
             texts_dict_unpopular : dictionary of unpopular video texts data
         """    
-        popular = self.load_meta()[:30]
-        unpopular = self.load_meta()[-30:]
+
         transcripts = self.load_transcripts()
+        df_meta = self.load_meta()
+        idx = [i for i in df_meta['id'] if i not in transcripts["video_id"].tolist()]
+        df_meta = df_meta[df_meta["id"].apply(lambda x : x not in idx)]
+
+
+        popular = df_meta[:30]
+        unpopular = df_meta[-30:]
+
+
         texts_dict_popular = dict()
         texts_dict_unpopular = dict()
 

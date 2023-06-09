@@ -26,6 +26,7 @@ class Preprocess:
         """
         pattern = '[^ ㄱ-ㅣ가-힣]+'
         text = re.sub(pattern,'', text)
+        text = re.sub("  ", " ", text)
         return text
     
     @staticmethod
