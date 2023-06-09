@@ -3,7 +3,7 @@ from flask import Flask, request, session, g, redirect, url_for, abort, \
      render_template, flash, _app_ctx_stack
 
 # configuration
-DATABASE = 'C:/Users/sksru/test/flaskr/flaskr.db'
+DATABASE = 'flaskr.db'
 DEBUG = True
 SECRET_KEY = 'development key'
 USERNAME = 'admin'
@@ -15,19 +15,19 @@ app.config.from_object(__name__) # 위의 환경변수들을 읽어 Flask의 환
 # app.config.from_envvar('FLASKR_SETTINGS', silent=True)
 
 # DB초기화 함수 
-# def init_db():
-#     # DB 테이블 생성
-#     with app.app_context():
-#         db = get_db()
-#         with app.open_resource('schema.sql', mode='r') as f: # app객체의 함수 : 리소스경로의 파일 열고 값 읽기
-#             db.cursor().executescript(f.read())
-#         db.commit()
+def init_db():
+    # DB 테이블 생성
+    with app.app_context():
+        db = get_db()
+        with app.open_resource('schema.sql', mode='r') as f: # app객체의 함수 : 리소스경로의 파일 열고 값 읽기
+            db.cursor().executescript(f.read())
+        db.commit()
 
 def get_db():
     # 연결이 없는 경우 새 DB연결
     top = _app_ctx_stack.top
     if not hasattr(top, 'sqlite_db'):
-        sqlite_db = sqlite3.connect(app.config['DATABASE']) # DB연결
+        sqlite_db = sqlite3.connect(app.config["DATABASE"]) # DB연결
         sqlite_db.row_factory = sqlite3.Row
         top.sqlite_db = sqlite_db
 
@@ -85,5 +85,5 @@ def logout(): # 로그아웃
 
 
 if __name__ == '__main__':
-    # init_db()
+    init_db()
     app.run() # 서버 가동
