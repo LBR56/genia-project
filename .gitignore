@@ -1,8 +1,6 @@
-venv
-.env
+# mac
 .DS_Store
-jenkins_home
 
+# python
 __pycache__
-
-data/postgres
+venv
