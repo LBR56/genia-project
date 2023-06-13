@@ -1,0 +1,14 @@
+# module
+click
+python-dotenv
+tqdm
+
+# youtube api
+google-api-python-client
+oauth2client
+
+# transcript api
+youtube_transcript_api
+
+# dataframe
+pandas
