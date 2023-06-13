@@ -1,0 +1,39 @@
+pipeline {
+	agent any
+    environment {
+        NEW_VERSION = '0.0.1'
+    }
+	stages {
+        stage("init") {
+            echo "webhook2"
+            steps {
+                script {
+                    gv = load "DE/jenkins/crawling.groovy"
+                }
+            }
+        }
+		stage("crawling") {
+            // when {
+            //     expression {
+            //         env.GIT_BRANCH == 'origin/jenkins'
+            //     }
+            // }
+			steps {
+                script {
+                    gv.crawlingApp()
+                }
+			}
+		}
+	}
+    post {
+        always {
+            echo 'building..'
+        }
+        success {
+            echo 'success'
+        }
+        failure {
+            echo 'failure'
+        }
+    }
+}
