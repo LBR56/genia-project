@@ -5,7 +5,6 @@ pipeline {
     }
 	stages {
         stage("init") {
-            echo "webhook2"
             steps {
                 script {
                     gv = load "DE/jenkins/crawling.groovy"
@@ -19,6 +18,7 @@ pipeline {
             //     }
             // }
 			steps {
+                echo "webhook2"
                 script {
                     gv.crawlingApp()
                 }
