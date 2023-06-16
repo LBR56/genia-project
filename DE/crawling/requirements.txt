@@ -10,5 +10,6 @@ oauth2client
 # transcript api
 youtube_transcript_api
 
-# dataframe
+# data & save
 pandas
+boto3

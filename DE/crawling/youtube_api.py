@@ -3,11 +3,11 @@ from googleapiclient.errors import HttpError
 from googleapiclient.http import HttpRequest
 import pandas as pd
 
-from configs import REQUESTS, BUILD_PARAM
+from configs import REQUESTS, YOUTUBE_BUILD_PARAM
 
 class YoutubeApi(object):    
     def __init__(self):
-        self.__service = build(**BUILD_PARAM)
+        self.__service = build(**YOUTUBE_BUILD_PARAM)
 
     def __api_request(self, request:HttpRequest):
         assert isinstance(request, HttpRequest)
@@ -21,21 +21,20 @@ class YoutubeApi(object):
             
         return self._response
 
-    def youtube_search_ids(self, **kwargs):
-        
+    def youtube_search_ids(self, query = None, max_results = 50, **kwargs):
         search_param = REQUESTS["search_param"]
-        if kwargs["query"]:
-            search_param["q"] = kwargs["query"]
+        if query:
+            search_param["q"] = query
         
         video_ids = []
-        for _ in range(0, kwargs["max_results"] + 1, 50):
+        for _ in range(0, max_results + 1, 50):
             request = self.__service.search().list(**search_param)
             response = self.__api_request(request)
 
             video_ids += [item["id"]["videoId"] for item in response["items"]]
             
             search_param["pageToken"] = response["nextPageToken"]
-        return list(set(video_ids))[:kwargs["max_results"]]
+        return list(set(video_ids))[:max_results]
 
     def make_video_meta(self, response):
         dfs = [pd.DataFrame(response["items"])]
