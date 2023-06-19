@@ -2,19 +2,41 @@ import os
 
 import boto3
 from botocore.client import Config
+import pandas as pd
 
 from configs import AWS_S3_PARAM
 
-def s3_upload( dfs:dict, dir=""):
-    s3 = boto3.resource(
-        's3',
-        aws_access_key_id=AWS_S3_PARAM["ACCESS_KEY_ID"],
-        aws_secret_access_key=AWS_S3_PARAM["ACCESS_SECRET_KEY"],
-        config=Config(signature_version="s3v4")
-    )
-    
-    for f_name, df in dfs.items():
-        df.to_csv(f_name)
-        s3.Bucket(AWS_S3_PARAM["BUCKET_NAME"]).put_object(
-            Key=dir + f_name, Body=f_name, ContentType="application/csv")
-        os.remove(f_name)
+class AwsController:
+    def __init__(self):
+        self.s3 = boto3.client(
+            's3',
+            aws_access_key_id=AWS_S3_PARAM["ACCESS_KEY_ID"],
+            aws_secret_access_key=AWS_S3_PARAM["ACCESS_SECRET_KEY"],
+            config=Config(signature_version="s3v4")
+            )
+
+    def s3_upload(self, dfs:dict, dir=""):
+        for f_name, df in dfs.items():
+            df.to_csv(dir + f_name, index=False)
+
+            self.s3.upload_file(
+                Bucket=AWS_S3_PARAM["BUCKET_NAME"],
+                Key=dir + f_name, 
+                Filename=dir + f_name
+                )
+            
+            os.remove(dir + f_name)
+
+    def s3_download(self, keys:list, dir=""):
+        dfs = {}
+        for f_name in keys:
+            self.s3.download_file(
+                Bucket=AWS_S3_PARAM["BUCKET_NAME"],
+                Key=dir + f_name, 
+                Filename=dir + f_name
+                )
+            
+            dfs[f_name.split(".")[0]] = pd.read_csv(dir + f_name)
+            
+            os.remove(dir + f_name)
+        return dfs

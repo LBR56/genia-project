@@ -13,3 +13,8 @@ youtube_transcript_api
 # data & save
 pandas
 boto3
+
+requests
+
+kss
+konlpy

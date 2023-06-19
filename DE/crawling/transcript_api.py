@@ -11,6 +11,8 @@ def get_youtube_transcript(video_ids):
             transcript = transcript_list.find_generated_transcript(["ko"])
             
             temp_df = pd.DataFrame(transcript.fetch())
+
+            temp_df["video_id"] = video_id
             if df is None:
                 df = temp_df
             else:
