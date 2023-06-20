@@ -6,6 +6,13 @@ from preprocesser import Preprocesser
 
 def handler(event, message):
     kwargs = event
+    if "query" not in kwargs:
+        kwargs["query"] = None
+    if "max_results" not in kwargs:
+        kwargs["max_results"] = 50
+    if "result_dir" not in kwargs:
+        kwargs["result_dir"] = "src/"
+
     kwargs["result_dir"] = set_result_dir(**kwargs)
     youtubeApi = YoutubeApi()
 
