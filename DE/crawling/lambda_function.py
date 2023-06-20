@@ -1,16 +1,11 @@
-import click
-
 from utils import set_result_dir
 from youtube_api import YoutubeApi
 from transcript_api import get_youtube_transcript
 from aws import AwsController
 from preprocesser import Preprocesser
 
-@click.command()
-@click.option("-q", "--query", type=str, help="to query term to search for")
-@click.option("-r", "--max-results", default=50, type=int, help="max results")
-@click.option("--result-dir", default="src/")
-def main(**kwargs):
+def handler(event, message):
+    kwargs = event
     kwargs["result_dir"] = set_result_dir(**kwargs)
     youtubeApi = YoutubeApi()
 
@@ -54,6 +49,3 @@ def main(**kwargs):
         },
         kwargs["result_dir"]
     )
-
-if __name__ == "__main__":
-    main()

@@ -16,7 +16,7 @@ AWS_S3_PARAM = {
     "BUCKET_NAME":os.environ.get("BUCKET_NAME")
 }
 
-# 인수분해, 근해공식
+# 인수분해, 근의공식
 REQUESTS = {
     "search_param" : {
         "part" : "snippet",

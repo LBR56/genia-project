@@ -1,4 +1,4 @@
-FROM python:3.8
+FROM public.ecr.aws/lambda/python:3.9
 
 COPY . .
 
@@ -8,4 +8,4 @@ RUN apt-get update && apt-get install -y g++ default-jdk
 RUN pip install -r requirements.txt
 RUN pip install git+https://github.com/ssut/py-hanspell.git
 
-ENTRYPOINT bash
+CMD ["lambda_function.handler"]

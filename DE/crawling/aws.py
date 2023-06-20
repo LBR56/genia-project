@@ -17,7 +17,7 @@ class AwsController:
 
     def s3_upload(self, dfs:dict, dir=""):
         for f_name, df in dfs.items():
-            df.to_csv(dir + f_name, index=False)
+            df.to_csv("/tmp/" + f_name, index=False)
 
             self.s3.upload_file(
                 Bucket=AWS_S3_PARAM["BUCKET_NAME"],
@@ -25,7 +25,7 @@ class AwsController:
                 Filename=dir + f_name
                 )
             
-            os.remove(dir + f_name)
+            os.remove("/tmp/" + f_name)
 
     def s3_download(self, keys:list, dir=""):
         dfs = {}
@@ -36,7 +36,7 @@ class AwsController:
                 Filename=dir + f_name
                 )
             
-            dfs[f_name.split(".")[0]] = pd.read_csv(dir + f_name)
+            dfs[f_name.split(".")[0]] = pd.read_csv("/tmp/" + f_name)
             
-            os.remove(dir + f_name)
+            os.remove("/tmp/" + f_name)
         return dfs

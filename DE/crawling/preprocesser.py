@@ -30,6 +30,7 @@ class Preprocesser():
         """
         Func description : 한국어 이외의 데이터를 제외합니다
         """
+        text = re.sub(r"\[음악\]", r"", text)
         text = re.sub(r"[^ ㄱ-ㅣ가-힣]+", r"", text)
         text = re.sub(r" +", r" ", text)
         return text
@@ -60,8 +61,8 @@ class Preprocesser():
             lambda x : [Preprocesser.regex_preprocess(i) for i in x]
             )
         
-        temp_df["texts"] = temp_df["texts"].apply(
-            lambda x : [spell_checker.check(i).checked for i in tqdm(x)]
+        temp_df["texts"] = temp_df["texts"].progress_apply(
+            lambda x : [spell_checker.check(i).checked for i in x]
         )
 
         temp_df["texts"] = temp_df["texts"].apply(
