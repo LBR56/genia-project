@@ -38,14 +38,9 @@ def handler(event, message):
         },
         kwargs["result_dir"]
     )
-    results_df = aws_controller.s3_download(["videos.csv", "transcripts.csv"], kwargs["result_dir"])
-    
-    video_meta_df = results_df["videos"]
-    transcript_df = results_df["transcripts"]
 
     video_meta_df = video_meta_df.sort_values(by="viewCount", ascending=False)
     video_meta_df = video_meta_df.reset_index(drop=True)
-    transcript_df
     
     preprocesser = Preprocesser()
     preprocessed_df = preprocesser.get_preprocessed_df(video_meta_df, transcript_df)
