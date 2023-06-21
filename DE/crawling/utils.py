@@ -7,8 +7,8 @@ def set_result_dir(result_dir, query = None, **kwargs):
         result_dir += datetime.now().strftime(r"%Y%m%d") + "/"
         result_dir += query + "/"
 
-        if not os.path.exists("/temp/" + result_dir):
-            os.makedirs("/temp/" + result_dir)
+        if not os.path.exists("/tmp/" + result_dir):
+            os.makedirs("/tmp/" + result_dir)
         
     elif not os.path.exists(result_dir):
         raise FileNotFoundError("파일이 존재하지 않습니다.")
