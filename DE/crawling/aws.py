@@ -32,11 +32,11 @@ class AwsController:
     def s3_download(self, keys:list, dir=""):
         dfs = {}
         for f_name in keys:
-            f_name = dir + f_name
+            f_name = f_name
             self.s3.download_file(
                 Bucket=AWS_S3_PARAM["BUCKET_NAME"],
                 Key=f_name, 
-                Filename="/tmp/" + f_name
+                Filename="/tmp/" + dir + f_name
                 )
             
             dfs[f_name.split(".")[0]] = pd.read_csv("/tmp/" + f_name)
