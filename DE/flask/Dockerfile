@@ -1,10 +1,11 @@
-FROM python:3.8
+FROM python:3.9
 
-WORKDIR /workspace
+WORKDIR /app
 
-COPY . /workspace
-
+COPY requirements.txt .
 RUN pip install -r requirements.txt
 
-# CMD ["bash"]
-CMD ["gunicorn", "main:app", "--bind", "0.0.0.0:5000"]
+COPY . .
+EXPOSE 5000
+
+CMD ["python", "app.py", "0.0.0.0:5000"]
