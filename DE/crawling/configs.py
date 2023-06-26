@@ -30,3 +30,9 @@ REQUESTS = {
         "part" : "snippet,contentDetails,statistics",
     }
 }
+
+MAIN_PARAM = {
+    "query" : os.environ["query"],
+    "max_results" : os.environ["max_results"],
+    "result_dir" : os.environ["result_dir"],
+}

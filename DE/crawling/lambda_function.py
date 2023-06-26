@@ -3,15 +3,10 @@ from youtube_api import YoutubeApi
 from transcript_api import get_youtube_transcript
 from aws import AwsController
 from preprocesser import Preprocesser
+from configs import MAIN_PARAM
 
 def handler(event, message):
-    kwargs = event
-    if "query" not in kwargs:
-        kwargs["query"] = None
-    if "max_results" not in kwargs:
-        kwargs["max_results"] = 50
-    if "result_dir" not in kwargs:
-        kwargs["result_dir"] = "src/"
+    kwargs = MAIN_PARAM
 
     kwargs["result_dir"] = set_result_dir(**kwargs)
     youtubeApi = YoutubeApi()
