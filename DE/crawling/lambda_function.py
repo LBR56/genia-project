@@ -7,6 +7,7 @@ from configs import MAIN_PARAM
 
 def handler(event, message):
     kwargs = MAIN_PARAM
+    kwargs["max_results"] = int(kwargs["max_results"])
 
     kwargs["result_dir"] = set_result_dir(**kwargs)
     youtubeApi = YoutubeApi()
