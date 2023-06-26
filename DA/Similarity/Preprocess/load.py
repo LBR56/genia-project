@@ -75,8 +75,8 @@ class DataLoad:
             texts_df_unpopular.loc[idx, "text"] = texts
 
         if save == True:
-            texts_df_popular.to_csv("/LJY/Data/csv/texts_popular.csv")
-            texts_df_unpopular.to_csv("/LJY/Data/csv/texts_unpopular.csv")
+            texts_df_popular.to_csv("../Data/csv/texts_popular.csv")
+            texts_df_unpopular.to_csv("../Data/csv/texts_unpopular.csv")
 
         return texts_df_popular, texts_df_unpopular
 
@@ -87,16 +87,13 @@ class DataLoad:
         Returns
             stopwords : return list of stopwords
         """
-        stopwords = pd.read_excel("./LJY/Data/stop_words.xlsx")
+        stopwords = pd.read_excel("./src/words/stop_words.csv")
         stopwords = stopwords['stopword'].tolist()
         return stopwords
     
     @staticmethod
     def load_math_list():
-        math_list = pd.read_csv("./LJY/Data/csv/math_dict.csv")["dict"].tolist()
+        math_list = pd.read_csv("./src/words/math_dict.csv")["dict"].tolist()
         return math_list
         
-
-
-
 

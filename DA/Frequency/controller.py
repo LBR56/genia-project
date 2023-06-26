@@ -54,7 +54,7 @@ def get_nouns(without_math=False):
         new_unpo_nouns = [["수학" if noun in math_list else noun for noun in nouns] for nouns in unpopular_nouns]
         # total_new_po_nouns = list(itertools.chain(*new_po_nouns))
         # total_new_unpo_nouns = list(itertools.chain(*new_unpo_nouns))
-        return new_po_nouns, new_unpo_nouns
+        return popular_nouns, unpopular_nouns, new_po_nouns, new_unpo_nouns
 
     return total_po_nouns, total_unpo_nouns
 
@@ -67,14 +67,14 @@ def plot_most_commons(po_nouns, unpo_nouns, without_math=False, save=False):
     unpo_nouns_counter = Counter(total_new_unpo_nouns)
 
     if without_math == True:
-        top_30_po_common = dict(po_nouns_counter.most_common(70)[40:])
-        top_30_unpo_common = dict(unpo_nouns_counter.most_common(70)[40:])
+        top_30_po_common = dict(po_nouns_counter.most_common(31)[1:])
+        top_30_unpo_common = dict(unpo_nouns_counter.most_common(31)[1:])
     else: 
         top_30_po_common = top_n_common_dict(30, po_nouns_counter)
         top_30_unpo_common = top_n_common_dict(30, unpo_nouns_counter)
 
     y_pos = np.arange(len(top_30_po_common)) 
-    colors = sns.color_palette('YlGnBu',len(top_30_po_common))[::-1]
+    colors = sns.color_palette('RdPu',len(top_30_po_common))[::-1]
     plt.figure(figsize=(12,8))
 
     plt.subplot(1,2,1)
@@ -89,12 +89,14 @@ def plot_most_commons(po_nouns, unpo_nouns, without_math=False, save=False):
     plt.yticks(y_pos, top_30_unpo_common.keys())
 
     plt.tight_layout()
-    if save == True:
-        plt.savefig("./LJY/Data/png/most_common_30.png")
+    if save == True and without_math==False:
+        plt.savefig("./LJY/Data/png/most_common_30_with_math.png")
+    if save==True and without_math==True:
+        plt.savefig("./LJY/Data/png/most_common_30_wo_math.png")
 
     plt.show()
 
-def plot_wordcloud(po_nouns, unpo_nouns, without_math=False):
+def plot_wordcloud(po_nouns, unpo_nouns, without_math=False, save=False):
 
     def color_func(word, font_size, position,orientation,random_state=None, **kwargs):
         return("hsl({:d},{:d}%, {:d}%)".format(np.random.randint(212,313),np.random.randint(26,32),np.random.randint(45,80)))
@@ -105,27 +107,33 @@ def plot_wordcloud(po_nouns, unpo_nouns, without_math=False):
     unpo_nouns_counter = Counter(total_new_unpo_nouns)
 
     if without_math == True:
-        top_100_po_common = dict(po_nouns_counter.most_common(140)[40:])
-        top_100_unpo_common = dict(unpo_nouns_counter.most_common(140)[40:])
+        top_100_po_common = dict(po_nouns_counter.most_common(101)[1:])
+        top_100_unpo_common = dict(unpo_nouns_counter.most_common(101)[1:])
     else: 
         top_100_po_common = top_n_common_dict(100, po_nouns_counter)
         top_100_unpo_common = top_n_common_dict(100, unpo_nouns_counter)
 
-    wc = WordCloud(background_color = 'black', font_path='AppleGothic', color_func=color_func)
-    wc.generate_from_frequencies(top_100_po_common)
 
-    figure = plt.figure(figsize=(12,12))
-    ax = figure.add_subplot(2,1,1)
-    ax.axis('off')
-    ax.imshow(wc)
+    wc1 = WordCloud(background_color = 'black', font_path='AppleGothic', color_func=color_func)
+    wc1.generate_from_frequencies(top_100_po_common)
 
-    wc = WordCloud(background_color = 'black', font_path='AppleGothic', color_func=color_func)
-    wc.generate_from_frequencies(top_100_unpo_common)
+    wc2 = WordCloud(background_color = 'black', font_path='AppleGothic', color_func=color_func)
+    wc2.generate_from_frequencies(top_100_unpo_common)
 
-    figure = plt.figure(figsize=(12,12))
-    ax = figure.add_subplot(2,1,2)
-    ax.axis('off')
-    ax.imshow(wc)
+    plt.figure(figsize=(8,8))
+    plt.subplot(2, 1, 1)
+    plt.axis('off')
+    plt.imshow(wc1)
+
+    plt.subplot(2, 1, 2)
+    plt.axis('off')
+    plt.imshow(wc2)
+
+    if save == True and without_math==False:
+        plt.savefig("./LJY/Data/png/wordcloud_with_math.png")
+    if save==True and without_math==True:
+        plt.savefig("./LJY/Data/png/wordcloud_wo_math.png")
+
     plt.show()
 
 
@@ -235,19 +243,21 @@ class FrequencyModels:
         print("+" *50)
 
         
-        lin_ols_xgb_po = (lin_ols_pos).intersection(self.xgb_top_30.index)
-        lin_ols_xgb_unpo = (lin_ols_neg).intersection(self.xgb_top_30.index)
+        lin_ols_xgb_pos = (lin_ols_pos).intersection(self.xgb_top_30.index)
+        lin_ols_xgb_neg = (lin_ols_neg).intersection(self.xgb_top_30.index)
         print("선형회귀 & OLS & XGB 교집합")
-        self.num_important_words(lin_ols_xgb_po)
+        self.num_important_words(lin_ols_xgb_pos)
         print("="*50)
-        self.num_important_words(lin_ols_xgb_unpo)
+        self.num_important_words(lin_ols_xgb_neg)
         print("+" *50)
 
         print("="*50)
         print("세가지 모델의 중요 단어 집합은 다음과 같습니다")
         print("="*50)
-        print(lin_ols_xgb_po.tolist())
-        print(lin_ols_xgb_unpo.tolist())
+        print(lin_ols_xgb_pos.tolist())
+        print(lin_ols_xgb_neg.tolist())
+
+        return lin_ols_pos, lin_ols_neg, lin_ols_xgb_pos, lin_ols_xgb_neg
 
 class TfidfModels:
     def __init__(self, new_po_nouns, new_unpo_nouns):
@@ -316,7 +326,7 @@ class TfidfModels:
         plt.xlabel('count')
 
         if save==True:
-            plt.savefig("./LJY/Data/png/xgboost_imt.png")
+            plt.savefig("./LJY/Data/png/tfidf_xgboost_imt.png")
         plt.show()
 
     
@@ -359,16 +369,75 @@ class TfidfModels:
         print("+" *50)
 
         
-        lin_ols_xgb_po = (lin_ols_pos).intersection(self.xgb_top_30.index)
-        lin_ols_xgb_unpo = (lin_ols_neg).intersection(self.xgb_top_30.index)
+        lin_ols_xgb_pos = (lin_ols_pos).intersection(self.xgb_top_30.index)
+        lin_ols_xgb_neg = (lin_ols_neg).intersection(self.xgb_top_30.index)
         print("선형회귀 & OLS & XGB 교집합")
-        self.num_important_words(lin_ols_xgb_po)
+        self.num_important_words(lin_ols_xgb_pos)
         print("="*50)
-        self.num_important_words(lin_ols_xgb_unpo)
+        self.num_important_words(lin_ols_xgb_neg)
         print("+" *50)
 
         print("="*50)
         print("세가지 모델의 중요 단어 집합은 다음과 같습니다")
         print("="*50)
-        print(lin_ols_xgb_po.tolist())
-        print(lin_ols_xgb_unpo.tolist())
+        print(lin_ols_xgb_pos.tolist())
+        print(lin_ols_xgb_neg.tolist())
+
+        return lin_ols_pos, lin_ols_neg, lin_ols_xgb_pos, lin_ols_xgb_neg
+
+
+def make_freq_dict(po_nouns, unpo_nouns, word_list):
+    dict_po, dict_unpo = {}, {}
+    for word in word_list:
+        dict_po[word] = 0
+        dict_unpo[word] = 0
+
+    for po_sen, unpo_sen in zip(po_nouns, unpo_nouns):
+        for po_word, unpo_word in zip(po_sen, unpo_sen):
+            if po_word in word_list: 
+                dict_po[po_word] += 1
+
+            if unpo_word in word_list:
+                dict_unpo[unpo_word] += 1
+
+    return dict_po, dict_unpo
+
+def plot_freq_dict(po_dict, unpo_dict, save=False, file_nm=None):
+    po_freq = pd.Series(po_dict).sort_values(ascending=False)[:10]
+    unpo_freq = pd.Series(unpo_dict).sort_values(ascending=False)[:10]
+
+    if len(po_dict.keys()) > 8:
+        plt.figure(figsize=(10, 6))
+    else:
+        plt.figure(figsize=(8,6))
+    bar_width = 0.25
+
+    index = np.arange(len(po_freq))
+
+    plt.bar(index, po_freq, bar_width, color='royalblue', label="Popular Nouns")
+    plt.bar(index+bar_width, unpo_freq, bar_width, color='palevioletred', label="Unpopular Nouns")
+    plt.xticks(index, po_freq.index, rotation=45)
+    plt.legend()
+    if save==True:
+        plt.savefig(f"./LJY/Data/png/{file_nm}.png")
+    
+    plt.show()
+
+
+
+def plot_relevant_nouns(po_nouns, unpo_nouns, lin_ols_pos, lin_ols_neg, lin_ols_xgb_pos, lin_ols_xgb_neg, save=False, tfidf=False):
+    if tfidf == True:
+        text = "tfidf_"
+    else:
+        text = ""
+
+    dict_po_lin_ols_pos, dict_unpo_lin_ols_pos = make_freq_dict(po_nouns, unpo_nouns, lin_ols_pos)
+    dict_po_lin_ols_neg, dict_unpo_lin_ols_neg = make_freq_dict(po_nouns, unpo_nouns, lin_ols_neg)
+    dict_po_lin_ols_xgb_pos, dict_unpo_lin_ols_xgb_pos = make_freq_dict(po_nouns, unpo_nouns, lin_ols_xgb_pos)
+    dict_po_lin_ols_xgb_neg, dict_unpo_lin_ols_xgb_neg = make_freq_dict(po_nouns, unpo_nouns, lin_ols_xgb_neg)
+
+
+    plot_freq_dict(dict_po_lin_ols_pos, dict_unpo_lin_ols_pos, save=save, file_nm=f"{text}lin_ols_pos")
+    plot_freq_dict(dict_po_lin_ols_neg, dict_unpo_lin_ols_neg, save=save, file_nm=f"{text}lin_ols_neg")
+    plot_freq_dict(dict_po_lin_ols_xgb_pos, dict_unpo_lin_ols_xgb_pos, save=save, file_nm=f"{text}lin_ols_xgb_pos")
+    plot_freq_dict(dict_po_lin_ols_xgb_neg, dict_unpo_lin_ols_xgb_neg, save=save, file_nm=f"{text}lin_ols_xgb_neg")

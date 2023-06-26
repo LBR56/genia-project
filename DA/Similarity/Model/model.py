@@ -59,23 +59,25 @@ class TfIdf:
 
 
     @staticmethod
-    def _save_cosine_mtx(popular_tfidf, unpopular_tfidf):
+    def tfidf_cosine_mtx(popular_tfidf, unpopular_tfidf, save=False):
         cos_sim_df = pd.DataFrame(cosine_similarity(popular_tfidf, unpopular_tfidf))
         print(f"TF-IDF 변환 후 유사도 비교 시, 유사도의 평균은 {round(np.mean(cos_sim_df.values), 3)} 입니다.")
-        cos_sim_df.to_csv("./LJY/Data/csv/cos_sim_df.csv")
+        if save==True:
+            cos_sim_df.to_csv("./LJY/Data/csv/cos_sim_df.csv")
         return cos_sim_df
     
     @staticmethod
-    def _save_masked_heatmap(cos_sim_df):
+    def masked_heatmap(cos_sim_df, save=False):
         corr = cos_sim_df
-        mask = corr.abs() < 0.5
+        mask = corr.abs() < 0.6
         f, ax = plt.subplots(figsize=(11, 9))
 
         sns.heatmap(corr, mask=mask, cmap="Reds", vmax=1, center=0,
                     square=True, linewidths=.5, cbar_kws={"shrink": .5})
         
-        plt.savefig("./LJY/Data/png/cosine_sim.png")
-
+        if save==True:
+            plt.savefig("./LJY/Data/png/cosine_sim.png")
+        plt.show()
 
 
 class Doc2Vec:
